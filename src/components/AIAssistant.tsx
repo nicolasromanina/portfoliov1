@@ -38,7 +38,7 @@ Informations sur Nicolas :
 
 📚 Formation :
 - Master 2 en Ingénierie des Systèmes Électroniques et Informatiques (2025-2026)
-- Licence en Physique des Signaux et Systèmes (2022-2023)
+- Licence en Physique des Signaux et Systèmes (2021-2022)
 - Baccalauréat Série C (2017)
 
 💼 Expériences :
@@ -47,7 +47,7 @@ Informations sur Nicolas :
 
 ⚡ Compétences techniques :
 - Développement : Python, JavaScript/TypeScript, C/C++, React, Node.js
-- Systèmes embarqués : Arduino, FPGA, Raspberry Pi, IoT
+- Systèmes embarqués : Arduino, ESP32, PIC FPGA, Raspberry Pi, IoT
 - Traitement des signaux : MATLAB, DSP, analyse spectrale
 - Réseaux : Linux/Windows Server, TCP/IP, Active Directory
 - Bases de données : PostgreSQL, MySQL, MongoDB

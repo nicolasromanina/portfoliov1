@@ -105,12 +105,12 @@ export default function Hero() {
           <div className="inline-flex items-center gap-6 text-gray-400 animate-slide-up delay-400 px-6 py-4 rounded-2xl bg-gray-900/30 backdrop-blur-sm border border-gray-800">
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-              <span>26 ans</span>
+              <span>Passion </span>
             </div>
             <div className="w-1 h-1 rounded-full bg-gray-600" />
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 rounded-full bg-blue-500" />
-              <span>Célibataire</span>
+              <span>Expertise </span>
             </div>
             <div className="w-1 h-1 rounded-full bg-gray-600" />
             <div className="flex items-center gap-2">

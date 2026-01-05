@@ -10,7 +10,7 @@ export default function Education() {
       icon: GraduationCap,
       color: 'blue',
       level: 'Master',
-      progress: 85,
+      progress: 45,
       details: [
         'Architecture des systèmes embarqués et conception de circuits FPGA',
         'Développement logiciel avancé (Python, C/C++, Java) et génie logiciel',
