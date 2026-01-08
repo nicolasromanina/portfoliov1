@@ -1,0 +1,82 @@
+import { SkillCategory } from '../types';
+
+export const skillCategories: SkillCategory[] = [
+  {
+    id: 'development',
+    title: 'Développement Logiciel',
+    icon: 'Code',
+    color: 'blue',
+    description: 'Maîtrise des langages et frameworks modernes pour le développement fullstack, acquis principalement via des projets académiques et personnels',
+    level: 'Intermédiaire',
+    experience: '2 ans de pratique académique',
+    skills: [
+      { name: 'Python', level: 75, years: 2, projects: 8, description: 'Projets académiques, scripts d\'automatisation, traitement de données' },
+      { name: 'JavaScript/TypeScript', level: 70, years: 1.5, projects: 6, description: 'Applications web frontend et backend' },
+      { name: 'C/C++', level: 65, years: 2, projects: 5, description: 'Programmation système, microcontrôleurs' },
+      { name: 'Java', level: 60, years: 1, projects: 3, description: 'Projets universitaires, POO avancée' },
+      { name: 'React/Vue.js', level: 65, years: 1, projects: 4, description: 'Interfaces utilisateur dynamiques' },
+      { name: 'Node.js/Express', level: 60, years: 1, projects: 3, description: 'APIs REST, serveurs web' },
+    ],
+    technologies: ['Django', 'FastAPI', 'Next.js', 'Vite', 'Webpack', 'Jest', 'TypeORM'],
+  },
+  {
+    id: 'embedded',
+    title: 'Systèmes Embarqués',
+    icon: 'Cpu',
+    color: 'purple',
+    description: 'Conception et programmation de systèmes embarqués et IoT via des projets universitaires et personnels',
+    level: 'Avancé',
+    experience: '3 ans de formation académique',
+    skills: [
+      { name: 'Arduino', level: 85, years: 3, projects: 7, description: 'Prototypage rapide, projets universitaires' },
+      { name: 'FPGA/VHDL', level: 70, years: 2, projects: 4, description: 'Cours avancés, projet de synthèse' },
+      { name: 'Raspberry Pi', level: 65, years: 2, projects: 5, description: 'Projets IoT, serveurs légers' },
+      { name: 'IoT Protocols', level: 75, years: 2, projects: 4, description: 'MQTT, Bluetooth, LoRa' },
+      { name: 'Microcontrôleurs', level: 80, years: 3, projects: 6, description: 'PIC, ARM Cortex, timers, interruptions' },
+      { name: 'Circuit Design', level: 70, years: 2, projects: 4, description: 'KiCad, simulations SPICE' },
+    ],
+    technologies: ['ESP32', 'STM32', 'FreeRTOS', 'MQTT', 'SPI/I2C/UART', 'KiCad', 'LTspice'],
+  },
+  {
+    id: 'signal',
+    title: 'Traitement des Signaux',
+    icon: 'Radio',
+    color: 'green',
+    description: 'Analyse et traitement numérique des signaux avec outils scientifiques, spécialité académique',
+    level: 'Avancé',
+    experience: '3 ans de formation universitaire',
+    skills: [
+      { name: 'MATLAB/Simulink', level: 85, years: 3, projects: 8, description: 'Simulations, traitement d\'images, contrôle' },
+      { name: 'DSP Fundamentals', level: 80, years: 3, projects: 5, description: 'Filtrage, transformées, analyse spectrale' },
+      { name: 'Analyse Spectrale', level: 75, years: 2, projects: 4, description: 'FFT, analyse de Fourier' },
+      { name: 'Filtrage Numérique', level: 80, years: 3, projects: 6, description: 'FIR, IIR, filtres adaptatifs' },
+      { name: 'Transformées', level: 85, years: 3, projects: 5, description: 'Fourier, Laplace, Z' },
+      { name: 'Acquisition de données', level: 75, years: 2, projects: 4, description: 'DAQ, échantillonnage, quantification' },
+    ],
+    technologies: ['NumPy', 'SciPy', 'OpenCV', 'LabVIEW', 'FFT', 'FIR/IIR', 'PCA'],
+  },
+  {
+    id: 'tools',
+    title: 'Outils et Méthodologies',
+    icon: 'Layers',
+    color: 'cyan',
+    description: 'Méthodologies de développement et outils de productivité utilisés dans le cadre académique',
+    level: 'Intermédiaire',
+    experience: '2 ans de pratique',
+    skills: [
+      { name: 'Git/GitHub', level: 80, years: 2, projects: 15, description: 'Collaboration sur projets universitaires' },
+      { name: 'Docker', level: 60, years: 1, projects: 3, description: 'Conteneurisation d\'applications' },
+      { name: 'CI/CD Concepts', level: 50, years: 1, projects: 2, description: 'GitHub Actions, déploiement basique' },
+      { name: 'Agile/Scrum', level: 65, years: 2, projects: 6, description: 'Projets en équipe universitaire' },
+      { name: 'Testing', level: 60, years: 1, projects: 4, description: 'Tests unitaires, intégration' },
+    ],
+    technologies: ['VS Code', 'Postman', 'Jira', 'Confluence', 'Markdown', 'LaTeX'],
+  },
+];
+
+export const skillLevels = [
+  { min: 90, max: 100, label: 'Expert', description: 'Maîtrise complète, capacité à former', color: 'text-green-400' },
+  { min: 75, max: 89, label: 'Avancé', description: 'Mise en production autonome', color: 'text-blue-400' },
+  { min: 60, max: 74, label: 'Intermédiaire', description: 'Projets autonomes avec documentation', color: 'text-yellow-400' },
+  { min: 40, max: 59, label: 'Débutant avancé', description: 'Concepts maîtrisés, premiers projets', color: 'text-orange-400' },
+];

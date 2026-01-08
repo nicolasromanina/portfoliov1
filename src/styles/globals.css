@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Styles de base personnalisés */
+@layer base {
+  body {
+    @apply antialiased;
+  }
+  
+  /* Amélioration de la typographie */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold tracking-tight;
+  }
+  
+  /* Styles pour les liens */
+  a {
+    @apply transition-colors duration-300;
+  }
+  
+  /* Reset des styles par défaut */
+  button, input, textarea {
+    @apply focus:outline-none focus:ring-2 focus:ring-blue-500/20;
+  }
+}
+
+@layer components {
+  /* Classes utilitaires réutilisables */
+  .glass-effect {
+    @apply backdrop-blur-sm bg-gray-900/50 border border-gray-800;
+  }
+  
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r;
+  }
+  
+  .card-hover {
+    @apply transition-all duration-500 hover:scale-[1.02] hover:border-gray-700;
+  }
+  
+  .skill-bar {
+    @apply relative h-2 bg-gray-800 rounded-full overflow-hidden;
+  }
+  
+  .timeline-dot {
+    @apply absolute w-4 h-4 rounded-full border-4 border-gray-900 bg-blue-500;
+  }
+}
+
+@layer utilities {
+  /* Animations personnalisées */
+  .animate-gradient {
+    background-size: 200% 200%;
+    animation: gradient 8s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0%, 100% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+  }
+  
+  /* Text shadow pour améliorer la lisibilité */
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .text-shadow-lg {
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Hide scrollbar but keep functionality */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  /* Gradient borders */
+  .gradient-border {
+    position: relative;
+    border: double 1px transparent;
+    background-image: linear-gradient(#1f2937, #1f2937), 
+                      linear-gradient(to right, #3b82f6, #8b5cf6);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+  }
+}
