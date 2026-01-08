@@ -3,6 +3,6 @@ Allow: /
 Disallow: /admin/
 Disallow: /private/
 
-Sitemap: https://nicolashub.vercel.app/sitemap-index.xml
+Sitemap: https://nicolashub.vercel.app/sitemap.xml
 
 # Crawl-delay: 10 (optionnel si vous avez beaucoup de trafic)
