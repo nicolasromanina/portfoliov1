@@ -26,7 +26,7 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 </urlset>`;
 
 const publicDir = join(__dirname, '../public');
-fs.writeFileSync(join(publicDir, 'sitemap.xml'), sitemap);
+fs.writeFileSync(join(publicDir, 'sitemap-index.xml'), sitemap);
 
 console.log('✅ Sitemap generated successfully!');
 console.log(`📅 Date: ${currentDate}`);
